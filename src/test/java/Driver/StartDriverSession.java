@@ -2,6 +2,7 @@ package Driver;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -23,9 +24,7 @@ public class StartDriverSession {
 
         URL url = new URL("http://0.0.0.0:4723"); //after appium 2.0 we don't use /wd/hub
 
-        AppiumDriver driver = new AndroidDriver(url, caps);
-
-
+        AppiumDriver driver = new IOSDriver(url, caps);
 
         /*DesiredCapabilities caps = new DesiredCapabilities();
 
