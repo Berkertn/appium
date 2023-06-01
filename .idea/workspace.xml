@@ -4,12 +4,97 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Driver/StartDriverSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="driver classes added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/StartDriverSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ActivityIndicatorViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ActivityIndicatorViewController.storyboardc/UITableViewController-YvC-vN-mSd.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ActivityIndicatorViewController.storyboardc/YvC-vN-mSd-view-Udh-X7-hOc.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/AlertControllerViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/AlertControllerViewController.storyboardc/UITableViewController-Va4-Ge-jQn.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/AlertControllerViewController.storyboardc/Va4-Ge-jQn-view-iro-ev-0xV.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ButtonViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ButtonViewController.storyboardc/UITableViewController-gl0-hM-EWg.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ButtonViewController.storyboardc/gl0-hM-EWg-view-gDs-OX-aHt.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/Credits.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/DatePickerController.storyboardc/7Xn-ho-KP8-view-LFl-gd-u3P.nib/objects-14.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/DatePickerController.storyboardc/7Xn-ho-KP8-view-LFl-gd-u3P.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/DatePickerController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/DatePickerController.storyboardc/UIViewController-7Xn-ho-KP8.nib/objects-14.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/DatePickerController.storyboardc/UIViewController-7Xn-ho-KP8.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ImageViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ImageViewController.storyboardc/UIViewController-XCI-A9-c2M.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ImageViewController.storyboardc/XCI-A9-c2M-view-InE-1J-uPb.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/LaunchScreen.storyboardc/Axx-hg-9Xm-view-Bd8-dr-7ve.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/LaunchScreen.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/LaunchScreen.storyboardc/UINavigationController-4yX-ry-qSy.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/Main.storyboardc/GgB-cT-22O-view-aE8-Eb-ul8.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/Main.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/Main.storyboardc/MasterViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/Main.storyboardc/initialDetail.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/Main.storyboardc/ioe-is-9Fo-view-Ie1-Wu-iah.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/Main.storyboardc/navInitialDetail.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/Main.storyboardc/splitView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/PageControlViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/PageControlViewController.storyboardc/UIViewController-ZSF-lM-gQa.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/PageControlViewController.storyboardc/ZSF-lM-gQa-view-1Df-6J-Q8v.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/PickerViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/PickerViewController.storyboardc/UIViewController-hIc-I2-PiV.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/PickerViewController.storyboardc/hIc-I2-PiV-view-EB5-Ny-mbq.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ProgressViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ProgressViewController.storyboardc/UITableViewController-aY0-FD-8DD.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ProgressViewController.storyboardc/aY0-FD-8DD-view-vxe-YC-yBi.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SearchViewControllers.storyboardc/CustomSearchBarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SearchViewControllers.storyboardc/DefaultSearchBarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SearchViewControllers.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SearchViewControllers.storyboardc/Mhd-Bs-sIn-view-YVy-et-UAQ.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SearchViewControllers.storyboardc/Search.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SearchViewControllers.storyboardc/SearchBarEmbedInNavBarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SearchViewControllers.storyboardc/SearchResultsViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SearchViewControllers.storyboardc/Thx-B6-QkK-view-QvM-3S-GbD.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SearchViewControllers.storyboardc/aRM-gX-SK9-view-1PE-AW-QJq.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SearchViewControllers.storyboardc/aTT-8g-UdL-view-VZF-3b-rcm.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SearchViewControllers.storyboardc/v21-vF-FLh-view-d2N-kr-XWw.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SegmentedControlViewController.storyboardc/Eil-ie-nN6-view-fLQ-5f-tUh.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SegmentedControlViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SegmentedControlViewController.storyboardc/UITableViewController-Eil-ie-nN6.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SliderViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SliderViewController.storyboardc/UITableViewController-laz-6N-ZhE.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SliderViewController.storyboardc/laz-6N-ZhE-view-8xG-xW-Mvc.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/StackViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/StackViewController.storyboardc/K8w-Uq-R9J-view-Hwb-09-b4P.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/StackViewController.storyboardc/UIViewController-K8w-Uq-R9J.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/StepperViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/StepperViewController.storyboardc/Ob2-pp-aCj-view-aQ3-9F-Tmi.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/StepperViewController.storyboardc/UITableViewController-Ob2-pp-aCj.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SwitchViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SwitchViewController.storyboardc/UITableViewController-zcI-oN-J3j.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/SwitchViewController.storyboardc/zcI-oN-J3j-view-4ER-nG-feZ.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/TextFieldViewController.storyboardc/DSJ-7r-oCY-view-dyj-uS-k8j.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/TextFieldViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/TextFieldViewController.storyboardc/UITableViewController-DSJ-7r-oCY.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/TextViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/TextViewController.storyboardc/UIViewController-pUP-b0-VMf.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/TextViewController.storyboardc/pUP-b0-VMf-view-eAJ-am-dgQ.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ToolbarViewControllers.storyboardc/CustomToolbarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ToolbarViewControllers.storyboardc/DefaultToolbarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ToolbarViewControllers.storyboardc/FY6-YQ-KUW-view-cQQ-vC-cql.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ToolbarViewControllers.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ToolbarViewControllers.storyboardc/P5B-ej-GR8-view-lTJ-Dz-yrG.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ToolbarViewControllers.storyboardc/TintedToolbarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ToolbarViewControllers.storyboardc/Toolbars.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ToolbarViewControllers.storyboardc/c6p-Xx-oIp-view-LTn-gr-hZ8.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/ToolbarViewControllers.storyboardc/cTo-Y6-RL4-view-YY9-uv-rey.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/WebViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/WebViewController.storyboardc/UIViewController-i9U-A8-mkf.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/WebViewController.storyboardc/i9U-A8-mkf-view-cde-Ag-lVB.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Base.lproj/content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/PkgInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/UIKitCatalog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/apps/UIKitCatalog-iphonesimulator.app/_CodeSignature/CodeResources" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,27 +135,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "development",
-    "last_opened_file_path": "/Users/ertanb/Desktop/BERK/appium/appium_project/Appium/Appium_BDD/src/test/resources/apks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ertanb/Desktop/BERK/appium/appium_project/Appium/Appium_BDD/src/test/resources/apps&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/apps" />
       <recent name="$PROJECT_DIR$/src/test/resources/apks" />
     </key>
   </component>
@@ -102,7 +187,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685642004683</updated>
-      <workItem from="1685642006016" duration="8968000" />
+      <workItem from="1685642006016" duration="10649000" />
+      <workItem from="1685653372195" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685642187878</created>
@@ -125,7 +211,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685642199729</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="driver classes added">
+      <created>1685651689368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685651689368</updated>
+    </task>
+    <task id="LOCAL-00005" summary="driver classes added">
+      <created>1685651928356</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685651928356</updated>
+    </task>
+    <task id="LOCAL-00006" summary="driver classes added">
+      <created>1685652470577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685652470577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +240,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="driver classes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="driver classes added" />
   </component>
 </project>
