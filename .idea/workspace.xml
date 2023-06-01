@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="gitignore updated">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="updated pom">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,20 @@
       <recent name="$PROJECT_DIR$/src/test/resources/apks" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CreateDriverSessionUsingOptions">
+    <configuration name="CreateDriverSessionUsingOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Driver.CreateDriverSessionUsingOptions" />
+      <module name="Appium_BDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Driver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StartDriverSession" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver.StartDriverSession" />
       <module name="Appium_BDD" />
@@ -86,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateDriverSessionUsingOptions" />
         <item itemvalue="Application.StartDriverSession" />
       </list>
     </recent_temporary>
@@ -99,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685642004683</updated>
       <workItem from="1685642006016" duration="10649000" />
-      <workItem from="1685653372195" duration="742000" />
+      <workItem from="1685653372195" duration="1043000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685642187878</created>
@@ -171,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685653934399</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated pom">
+      <created>1685654157003</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685654157003</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +202,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="driver classes added" />
     <MESSAGE value="gitignore updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore updated" />
+    <MESSAGE value="updated pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated pom" />
   </component>
 </project>
