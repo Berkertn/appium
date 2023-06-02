@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="updated pom">
+    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="new Driver using option class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/CreateDriverSessionUsingOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/CreateDriverSessionUsingOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/StartDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/StartDriverSession.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/apks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateDriverSessionUsingOptions">
+  <component name="RunManager" selected="Application.StartDriverSession">
     <configuration name="CreateDriverSessionUsingOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver.CreateDriverSessionUsingOptions" />
       <module name="Appium_BDD" />
@@ -99,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreateDriverSessionUsingOptions" />
         <item itemvalue="Application.StartDriverSession" />
+        <item itemvalue="Application.CreateDriverSessionUsingOptions" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685642004683</updated>
       <workItem from="1685642006016" duration="10649000" />
-      <workItem from="1685653372195" duration="1043000" />
+      <workItem from="1685653372195" duration="3474000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685642187878</created>
@@ -192,7 +195,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685654157003</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new Driver using option class">
+      <created>1685654464750</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685654464750</updated>
+    </task>
+    <task id="LOCAL-00013" summary="new Driver using option class">
+      <created>1685654656013</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685654656013</updated>
+    </task>
+    <task id="LOCAL-00014" summary="new Driver using option class">
+      <created>1685654701382</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685654701382</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +227,7 @@
     <MESSAGE value="driver classes added" />
     <MESSAGE value="gitignore updated" />
     <MESSAGE value="updated pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated pom" />
+    <MESSAGE value="new Driver using option class" />
+    <option name="LAST_COMMIT_MESSAGE" value="new Driver using option class" />
   </component>
 </project>

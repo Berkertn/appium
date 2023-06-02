@@ -25,6 +25,8 @@ public class Driver {
     private String deviceName;
     private String UdId;
     private String appPath;
+    private String appActivity;
+    private String appPackage;
 
     public Driver(PlatformNames platformName) {
         if (platformName == PlatformNames.ios) {
@@ -37,13 +39,15 @@ public class Driver {
                     "UIKitCatalog-iphonesimulator.app";
             setAppPath(appPath);
         } else if (platformName == PlatformNames.android) {
-            setPlatformName("iOS");
+            setPlatformName("Android");
             setAutomationName("UiAutomator2");
             setDeviceName("pixel_6_pro");
             setUdId("emulator-5554");
             String appPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test" +
                     File.separator + "resources" + File.separator + "apks" + File.separator + "ApiDemos.apk";
             setAppPath(appPath);
+            setAppPackage("io.appium.android.apis");
+            setAppActivity("io.appium.android.apis.accessibility.CustomViewAccessibilityActivity");
         } else {
             throw new IllegalArgumentException("Invalid name. Allowed names are " + PlatformNames.android + "or" + PlatformNames.ios);
         }
@@ -87,5 +91,21 @@ public class Driver {
 
     public void setAppPath(String appPath) {
         this.appPath = appPath;
+    }
+
+    public String getAppPackage() {
+        return appPackage;
+    }
+
+    public void setAppPackage(String appPackage) {
+        this.appPackage = appPackage;
+    }
+
+    public String getAppActivity() {
+        return appActivity;
+    }
+
+    public void setAppActivity(String appActivity) {
+        this.appActivity = appActivity;
     }
 }

@@ -24,6 +24,7 @@ public class CreateDriverSessionUsingOptions {
         AppiumDriver driver = new AndroidDriver(url, options);
 
         // IOS
+
        /* Driver driverOptions = new Driver(Driver.PlatformNames.ios);
         XCUITestOptions options = new XCUITestOptions()
                 .setDeviceName(driverOptions.getDeviceName())
