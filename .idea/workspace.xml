@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="-">
+    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="minor update for udid">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/CreateDriverSessionUsingOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/CreateDriverSessionUsingOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/StartDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/StartDriverSession.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,20 @@
       <recent name="Driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateDriverSessionUsingOptions">
+  <component name="RunManager" selected="Application.AndroidFindElements">
+    <configuration name="AndroidFindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="findElements.AndroidFindElements" />
+      <module name="Appium_BDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="findElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateDriverSessionUsingOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver.CreateDriverSessionUsingOptions" />
       <module name="Appium_BDD" />
@@ -117,9 +131,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AndroidFindElements" />
+        <item itemvalue="Application.StartDriverSession" />
         <item itemvalue="Application.CreateDriverSessionUsingOptions" />
         <item itemvalue="Application.IOSDriverSession" />
-        <item itemvalue="Application.StartDriverSession" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +149,7 @@
       <workItem from="1685642006016" duration="10649000" />
       <workItem from="1685653372195" duration="13825000" />
       <workItem from="1685887308093" duration="460000" />
-      <workItem from="1685889514291" duration="1853000" />
+      <workItem from="1685889514291" duration="4973000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685642187878</created>
@@ -255,11 +270,36 @@
       <option name="project" value="LOCAL" />
       <updated>1685744174655</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="minor update for udid">
+      <created>1685896201767</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685896201767</updated>
+    </task>
+    <task id="LOCAL-00019" summary="minor update for udid">
+      <created>1685896443990</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1685896443990</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -269,6 +309,7 @@
     <MESSAGE value="new Driver using option class" />
     <MESSAGE value="appActivity and appPackage implemented" />
     <MESSAGE value="ios driver file created and bundleId capability added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ios driver file created and bundleId capability added" />
+    <MESSAGE value="minor update for udid" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor update for udid" />
   </component>
 </project>
