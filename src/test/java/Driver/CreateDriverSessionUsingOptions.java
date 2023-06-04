@@ -1,5 +1,6 @@
 package Driver;
 
+import Driver.Driver.PlatformNames;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
@@ -10,30 +11,37 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class CreateDriverSessionUsingOptions {
-    public static void main(String[] args) throws MalformedURLException {
-
-        Driver driverOptions = new Driver(Driver.PlatformNames.android);
-
-        UiAutomator2Options options = new UiAutomator2Options()
-                .setDeviceName(driverOptions.getDeviceName())
-                .setAutomationName(driverOptions.getAutomationName())
-                .setApp(driverOptions.getAppPath());
-
+    public static AppiumDriver initDriver(String platformName) throws MalformedURLException {
         URL url = new URL("http://0.0.0.0:4723");
 
-        AppiumDriver driver = new AndroidDriver(url, options);
-        System.out.println("session id: " + driver.getSessionId());
+        switch (platformName) {
+            case "Android":
 
-        // IOS
+                Driver driverOptions = new Driver(PlatformNames.android);
 
-       /* Driver driverOptions = new Driver(Driver.PlatformNames.ios);
-        XCUITestOptions options = new XCUITestOptions()
-                .setDeviceName(driverOptions.getDeviceName())
-                .setAutomationName(driverOptions.getAutomationName())
-                .setApp(driverOptions.getAppPath());
+                UiAutomator2Options options = new UiAutomator2Options()
+                        .setDeviceName(driverOptions.getDeviceName())
+                        .setAutomationName(driverOptions.getAutomationName())
+                        .setApp(driverOptions.getAppPath())
+                        .setUdid(driverOptions.getUdId());/*
+                        .setAppPackage(driverOptions.getAppPackage())
+                        .setAppActivity(driverOptions.getAppActivity());*/
+                return new AndroidDriver(url, options);
+            case "iOS":
 
-        URL url = new URL("http://0.0.0.0:4723");
+                Driver driverOptionsIOS = new Driver(PlatformNames.ios);
 
-        AppiumDriver driver = new IOSDriver(url, options);*/
+                XCUITestOptions optionsIOS = new XCUITestOptions()
+                        .setDeviceName(driverOptionsIOS.getDeviceName())
+                        .setAutomationName(driverOptionsIOS.getAutomationName())
+                        .setApp(driverOptionsIOS.getAppPath())
+                        .setUdid(driverOptionsIOS.getUdId());
+
+                return new IOSDriver(url, optionsIOS);
+            default:
+                throw new IllegalStateException("Unexpected value: " + platformName);
+        }
+
+
     }
 }
