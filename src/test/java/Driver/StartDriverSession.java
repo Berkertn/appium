@@ -29,6 +29,7 @@ public class StartDriverSession {
         URL url = new URL("http://0.0.0.0:4723"); //after appium 2.0 we don't use /wd/hub
 
         AppiumDriver driver = new AndroidDriver(url, caps);
+        System.out.println("session id: " + driver.getSessionId()); // attend the session
 
         /*DesiredCapabilities caps = new DesiredCapabilities();
 
