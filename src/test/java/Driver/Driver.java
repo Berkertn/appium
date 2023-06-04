@@ -33,7 +33,7 @@ public class Driver {
             setPlatformName("iOS");
             setAutomationName("XCUITest");
             setDeviceName("iPhone 14 Pro Max");
-            setUdId("493BF52D-FC9F-482A-A1AB-5601846C0E63");
+            setUdId("6CBB3941-8E88-41E5-AF0D-6E1376DB5328");
             String appPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test" +
                     File.separator + "resources" + File.separator + "apps" + File.separator +
                     "UIKitCatalog-iphonesimulator.app";
