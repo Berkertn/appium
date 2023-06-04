@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="appActivity and appPackage implemented" />
+    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="ios driver file created and bundleId capability added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "development",
-    "last_opened_file_path": "/Users/ertanb/Desktop/BERK/appium/appium_project/Appium/Appium_BDD/src/test/resources/apps",
+    "last_opened_file_path": "/Users/ertanb/Desktop/BERK/appium/appium_project/Appium/Appium_BDD",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,6 +68,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/apps" />
       <recent name="$PROJECT_DIR$/src/test/resources/apks" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Driver" />
     </key>
   </component>
   <component name="RunManager" selected="Application.IOSDriverSession">
@@ -125,7 +130,8 @@
       <option name="presentableId" value="Default" />
       <updated>1685642004683</updated>
       <workItem from="1685642006016" duration="10649000" />
-      <workItem from="1685653372195" duration="11833000" />
+      <workItem from="1685653372195" duration="13825000" />
+      <workItem from="1685887308093" duration="460000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685642187878</created>
@@ -239,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685740701357</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ios driver file created and bundleId capability added">
+      <created>1685744174655</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685744174655</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +265,7 @@
     <MESSAGE value="updated pom" />
     <MESSAGE value="new Driver using option class" />
     <MESSAGE value="appActivity and appPackage implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="appActivity and appPackage implemented" />
+    <MESSAGE value="ios driver file created and bundleId capability added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ios driver file created and bundleId capability added" />
   </component>
 </project>
