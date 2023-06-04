@@ -22,6 +22,7 @@ public class CreateDriverSessionUsingOptions {
         URL url = new URL("http://0.0.0.0:4723");
 
         AppiumDriver driver = new AndroidDriver(url, options);
+        System.out.println("session id: " + driver.getSessionId());
 
         // IOS
 
