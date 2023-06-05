@@ -13,6 +13,8 @@ public class AndroidFindElements {
     public static void main(String[] args) throws MalformedURLException {
 
         AndroidDriver driver = (AndroidDriver) CreateDriverSessionUsingOptions.initDriver("Android");
+        System.out.println(driver.getSessionId());
+
         AppiumBy accessibilityTextFieldSelector = (AppiumBy) AppiumBy.accessibilityId("Accessibility");
 
         WebElement accessibilityTextFieldElement = driver.findElement(accessibilityTextFieldSelector);

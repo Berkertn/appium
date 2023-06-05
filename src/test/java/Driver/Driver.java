@@ -40,7 +40,7 @@ public class Driver {
                     "UIKitCatalog-iphonesimulator.app";
 
             setAppPath(appPath);
-            //setBundleId("com.pozitron.pegasusUAT");
+            setBundleId("com.example.apple-samplecode.UICatalog");
 
         } else if (platformName == PlatformNames.android) {
             setPlatformName("Android");

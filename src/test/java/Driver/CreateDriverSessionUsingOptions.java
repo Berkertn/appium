@@ -35,8 +35,8 @@ public class CreateDriverSessionUsingOptions {
                         .setDeviceName(driverOptionsIOS.getDeviceName())
                         .setAutomationName(driverOptionsIOS.getAutomationName())
                         .setUdid(driverOptionsIOS.getUdId())
-                        .setApp(driverOptionsIOS.getAppPath());
-                //       .setBundleId(driverOptionsIOS.getBundleId());
+                        .setApp(driverOptionsIOS.getAppPath())
+                        .setBundleId(driverOptionsIOS.getBundleId());
 
 
                 return new IOSDriver(url, optionsIOS);
