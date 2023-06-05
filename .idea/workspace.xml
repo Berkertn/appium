@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="find elements and driver updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/CreateDriverSessionUsingOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/CreateDriverSessionUsingOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/StartDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/StartDriverSession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/findElements/AndroidFindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/findElements/AndroidFindElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/findElements/IOSFindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/findElements/IOSFindElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +75,7 @@
       <recent name="Driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IOSFindElements">
+  <component name="RunManager" selected="Application.AndroidFindElements">
     <configuration name="AndroidFindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="findElements.AndroidFindElements" />
       <module name="Appium_BDD" />
@@ -147,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AndroidFindElements" />
         <item itemvalue="Application.IOSFindElements" />
         <item itemvalue="Application.IOSDriverSession" />
-        <item itemvalue="Application.AndroidFindElements" />
         <item itemvalue="Application.StartDriverSession" />
         <item itemvalue="Application.CreateDriverSessionUsingOptions" />
       </list>
@@ -167,7 +163,7 @@
       <workItem from="1685653372195" duration="13825000" />
       <workItem from="1685887308093" duration="460000" />
       <workItem from="1685889514291" duration="8534000" />
-      <workItem from="1685947690778" duration="6448000" />
+      <workItem from="1685947690778" duration="10811000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685642187878</created>
@@ -351,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685950236042</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="find elements and driver updates">
+      <created>1685955246466</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685955246466</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
