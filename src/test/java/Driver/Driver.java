@@ -27,6 +27,7 @@ public class Driver {
     private String appPath;
     private String appActivity;
     private String appPackage;
+    private String bundleId;
 
     public Driver(PlatformNames platformName) {
         if (platformName == PlatformNames.ios) {
@@ -37,7 +38,10 @@ public class Driver {
             String appPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test" +
                     File.separator + "resources" + File.separator + "apps" + File.separator +
                     "UIKitCatalog-iphonesimulator.app";
+
             setAppPath(appPath);
+            //setBundleId("com.pozitron.pegasusUAT");
+
         } else if (platformName == PlatformNames.android) {
             setPlatformName("Android");
             setAutomationName("UiAutomator2");
@@ -51,6 +55,14 @@ public class Driver {
         } else {
             throw new IllegalArgumentException("Invalid name. Allowed names are " + PlatformNames.android + "or" + PlatformNames.ios);
         }
+    }
+
+    public String getBundleId() {
+        return bundleId;
+    }
+
+    public void setBundleId(String bundleId) {
+        this.bundleId = bundleId;
     }
 
     public String getPlatformName() {
