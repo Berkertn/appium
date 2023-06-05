@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="minor update for udid">
+    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="android find element learning ex">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/CreateDriverSessionUsingOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/CreateDriverSessionUsingOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/StartDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/StartDriverSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/findElements/AndroidFindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/findElements/AndroidFindElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,7 @@
       <workItem from="1685642006016" duration="10649000" />
       <workItem from="1685653372195" duration="13825000" />
       <workItem from="1685887308093" duration="460000" />
-      <workItem from="1685889514291" duration="4973000" />
+      <workItem from="1685889514291" duration="6520000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685642187878</created>
@@ -284,7 +283,35 @@
       <option name="project" value="LOCAL" />
       <updated>1685896443990</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="minor update">
+      <created>1685900787350</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1685900787350</updated>
+    </task>
+    <task id="LOCAL-00021" summary="now sessionId can be seen in terminal">
+      <created>1685900812169</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1685900812169</updated>
+    </task>
+    <task id="LOCAL-00022" summary="static init method applied">
+      <created>1685900825589</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685900825589</updated>
+    </task>
+    <task id="LOCAL-00023" summary="android find element learning ex">
+      <created>1685900847270</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1685900847270</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +337,10 @@
     <MESSAGE value="appActivity and appPackage implemented" />
     <MESSAGE value="ios driver file created and bundleId capability added" />
     <MESSAGE value="minor update for udid" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor update for udid" />
+    <MESSAGE value="minor update" />
+    <MESSAGE value="now sessionId can be seen in terminal" />
+    <MESSAGE value="static init method applied" />
+    <MESSAGE value="android find element learning ex" />
+    <option name="LAST_COMMIT_MESSAGE" value="android find element learning ex" />
   </component>
 </project>
