@@ -18,9 +18,8 @@ public class IOSDriverSession {
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, driverCapabilities.getDeviceName());
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, driverCapabilities.getAutomationName());
         caps.setCapability(MobileCapabilityType.UDID, driverCapabilities.getUdId());
-        caps.setCapability("bundleId", "com.example.apple-samplecode.UICatalog");
-
-        //caps.setCapability(MobileCapabilityType.APP, driverCapabilities.getAppPath());
+        //caps.setCapability("bundleId", "com.example.apple-samplecode.UICatalog");
+        caps.setCapability(MobileCapabilityType.APP, driverCapabilities.getAppPath());
 
         URL url = new URL("http://0.0.0.0:4723"); //after appium 2.0 we don't use /wd/hub
 

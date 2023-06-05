@@ -34,8 +34,10 @@ public class CreateDriverSessionUsingOptions {
                 XCUITestOptions optionsIOS = new XCUITestOptions()
                         .setDeviceName(driverOptionsIOS.getDeviceName())
                         .setAutomationName(driverOptionsIOS.getAutomationName())
+                        .setUdid(driverOptionsIOS.getUdId())
                         .setApp(driverOptionsIOS.getAppPath())
-                        .setUdid(driverOptionsIOS.getUdId());
+                        .setBundleId(driverOptionsIOS.getBundleId());
+
 
                 return new IOSDriver(url, optionsIOS);
             default:

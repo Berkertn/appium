@@ -20,6 +20,7 @@ public class StartDriverSession {
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, driverCapabilities.getAutomationName());
         caps.setCapability(MobileCapabilityType.UDID, driverCapabilities.getUdId());
         caps.setCapability(MobileCapabilityType.APP, driverCapabilities.getAppPath());
+        caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT,"20");
 
         // if the app installed on virtual machine and want to go direct approach you can try the =>
         /*caps.setCapability("appPackage", driverCapabilities.getAppPackage());
