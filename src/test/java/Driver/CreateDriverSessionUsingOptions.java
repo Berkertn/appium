@@ -38,12 +38,18 @@ public class CreateDriverSessionUsingOptions {
                         .setApp(driverOptionsIOS.getAppPath())
                         .setBundleId(driverOptionsIOS.getBundleId());
 
-
                 return new IOSDriver(url, optionsIOS);
             default:
                 throw new IllegalStateException("Unexpected value: " + platformName);
         }
+    }
 
-
+    public static void stopAppiumDriver() {
+        final ThreadLocal<AppiumDriver> tlAppiumDriver = new ThreadLocal();
+        System.out.println("\nEnding automation with Appium Driver Stop");
+        AppiumDriver appiumDriver = tlAppiumDriver.get();
+        if (appiumDriver != null) {
+            appiumDriver.quit();
+        }
     }
 }

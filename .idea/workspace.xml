@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="find elements and driver updates">
+    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="gestures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/CreateDriverSessionUsingOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Driver/CreateDriverSessionUsingOptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/findElements/AndroidFindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/findElements/AndroidFindElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +164,10 @@
       <workItem from="1685653372195" duration="13825000" />
       <workItem from="1685887308093" duration="460000" />
       <workItem from="1685889514291" duration="8534000" />
-      <workItem from="1685947690778" duration="10811000" />
+      <workItem from="1685947690778" duration="10859000" />
+      <workItem from="1685967929792" duration="714000" />
+      <workItem from="1686036825778" duration="786000" />
+      <workItem from="1686047174055" duration="2328000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685642187878</created>
@@ -354,7 +358,35 @@
       <option name="project" value="LOCAL" />
       <updated>1685955246466</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="POM's created">
+      <created>1685964441058</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685964441058</updated>
+    </task>
+    <task id="LOCAL-00029" summary="scroll gestures implemented">
+      <created>1685964462444</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1685964462444</updated>
+    </task>
+    <task id="LOCAL-00030" summary="scroll gestures implemented">
+      <created>1685964467682</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1685964467682</updated>
+    </task>
+    <task id="LOCAL-00031" summary="gestures">
+      <created>1686047973782</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1686047973782</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,6 +417,9 @@
     <MESSAGE value="static init method applied" />
     <MESSAGE value="android find element learning ex" />
     <MESSAGE value="find elements and driver updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="find elements and driver updates" />
+    <MESSAGE value="POM's created" />
+    <MESSAGE value="scroll gestures implemented" />
+    <MESSAGE value="gestures" />
+    <option name="LAST_COMMIT_MESSAGE" value="gestures" />
   </component>
 </project>
