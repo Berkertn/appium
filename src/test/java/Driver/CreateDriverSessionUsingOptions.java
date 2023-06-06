@@ -38,7 +38,6 @@ public class CreateDriverSessionUsingOptions {
                         .setApp(driverOptionsIOS.getAppPath())
                         .setBundleId(driverOptionsIOS.getBundleId());
 
-
                 return new IOSDriver(url, optionsIOS);
             default:
                 throw new IllegalStateException("Unexpected value: " + platformName);
