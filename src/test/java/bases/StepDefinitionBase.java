@@ -39,8 +39,9 @@ public class StepDefinitionBase extends WebElementBase {
         ));
     }
 
-    public void scrollTo(By selector, String direction) {
-        WebElement element = getElement(selector);
+    public void scrollTo(By selector, String direction, By selectorForScrollingElement) {
+        //selectorForScrollingElement generally listView element in page
+        WebElement element = getElement(selectorForScrollingElement);
         boolean canScrollMore = true;
         while (canScrollMore) {
             canScrollMore = (Boolean) driver.executeScript("mobile: scrollGesture", ImmutableMap.of(

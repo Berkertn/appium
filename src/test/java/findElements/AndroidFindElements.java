@@ -25,10 +25,13 @@ public class AndroidFindElements {
         By textFields = AppiumBy.accessibilityId("TextFields");
         WebElement viewsButtonElement = steps.getElement(viewsSelector);
         viewsButtonElement.click();
-        steps.getElement(AppiumBy.accessibilityId("Drag and Drop")).click();
+        //scrollTo
+        steps.scrollTo(AppiumBy.accessibilityId("Visibility"),"down",By.id("android:id/list"));
+
 
         //Drag and drop
-        steps.dragAndDrop(By.id("io.appium.android.apis:id/drag_dot_1"));
+        //steps.getElement(AppiumBy.accessibilityId("Drag and Drop")).click();
+        //steps.dragAndDrop(By.id("io.appium.android.apis:id/drag_dot_1"));
 
         //long click
         //steps.longClick(By.id("io.appium.android.apis:id/drag_dot_1"));
