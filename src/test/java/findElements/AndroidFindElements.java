@@ -26,7 +26,12 @@ public class AndroidFindElements {
         WebElement viewsButtonElement = steps.getElement(viewsSelector);
         viewsButtonElement.click();
         steps.getElement(AppiumBy.accessibilityId("Drag and Drop")).click();
-        steps.longClick(By.id("io.appium.android.apis:id/drag_dot_1"));
+
+        //Drag and drop
+        steps.dragAndDrop(By.id("io.appium.android.apis:id/drag_dot_1"));
+
+        //long click
+        //steps.longClick(By.id("io.appium.android.apis:id/drag_dot_1"));
 
         //swipe
         /*
