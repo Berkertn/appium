@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="driver stopping method added usegae should be implemented after the hooks of cucumber">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e1f5a258-7a93-4f6e-8711-76645cb4e379" name="Changes" comment="scrollTo gestures implemented">
+      <change beforePath="$PROJECT_DIR$/src/test/java/bases/StepDefinitionBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bases/StepDefinitionBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/findElements/AndroidFindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/findElements/AndroidFindElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +168,7 @@
       <workItem from="1686036825778" duration="786000" />
       <workItem from="1686047174055" duration="3265000" />
       <workItem from="1686204756685" duration="40000" />
-      <workItem from="1686494205865" duration="4805000" />
+      <workItem from="1686494205865" duration="8092000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685642187878</created>
@@ -401,7 +401,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686049813186</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="long click added">
+      <created>1686499309332</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686499309332</updated>
+    </task>
+    <task id="LOCAL-00035" summary="steps and gestures file added">
+      <created>1686499326108</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1686499326108</updated>
+    </task>
+    <task id="LOCAL-00036" summary="scrollTo gestures implemented">
+      <created>1686503441575</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1686503441575</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,6 +458,9 @@
     <MESSAGE value="gestures" />
     <MESSAGE value="gestures swipe left added" />
     <MESSAGE value="driver stopping method added usegae should be implemented after the hooks of cucumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="driver stopping method added usegae should be implemented after the hooks of cucumber" />
+    <MESSAGE value="long click added" />
+    <MESSAGE value="steps and gestures file added" />
+    <MESSAGE value="scrollTo gestures implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="scrollTo gestures implemented" />
   </component>
 </project>
