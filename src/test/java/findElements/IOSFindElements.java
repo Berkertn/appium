@@ -1,6 +1,7 @@
 package findElements;
 
 import Driver.CreateDriverSessionUsingOptions;
+import bases.StepDefinitionBase;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.ios.IOSDriver;
 import org.openqa.selenium.By;
@@ -13,7 +14,15 @@ public class IOSFindElements {
     public static void main(String[] args) throws MalformedURLException {
 
         IOSDriver driver = (IOSDriver) CreateDriverSessionUsingOptions.initDriver("iOS");
+        StepDefinitionBase steps = new StepDefinitionBase(driver);
+        System.out.println(driver.getSessionId());
 
+        By element = By.xpath("//*[@name='Pegasus.SignupViewController']//XCUIElementTypeStaticText");
+        System.out.println(steps.getElement(element).getText());
+        System.out.println(steps.getElement(element).getLocation());
+
+
+        /*
 
         //ıd,name
         //AppiumBy activityIndicatorsTextSelector = (AppiumBy) AppiumBy.accessibilityId("Activity Indicators");
@@ -37,5 +46,7 @@ public class IOSFindElements {
         System.out.println(iosTextFieldElement2.getLocation());
         System.out.println(iosTextFieldElement2.getAttribute("value"));
         System.out.println(iosTextFieldElement2.getText());
+        */
+
     }
 }
