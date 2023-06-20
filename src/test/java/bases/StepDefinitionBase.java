@@ -112,7 +112,7 @@ public class StepDefinitionBase extends WebElementBase {
 
         params.put("element", ((RemoteWebElement) scrollingSize).getId());
         params.put("toVisible", true);
-        params.put("directin", "down");
+        params.put("direction", "down");
 
         while (true) {
             try {
