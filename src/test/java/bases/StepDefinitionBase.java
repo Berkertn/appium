@@ -1,6 +1,7 @@
 package bases;
 
 import com.google.common.collect.ImmutableMap;
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import junit.framework.Assert;
 import org.openqa.selenium.NoSuchElementException;
@@ -11,6 +12,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 
 public class StepDefinitionBase extends WebElementBase {
 
@@ -53,6 +56,9 @@ public class StepDefinitionBase extends WebElementBase {
             // Check if the element is now visible on the page
             if (isElementVisible(selector)) {
                 break; // Exit the loop if the element is visible
+            } else if (!canScrollMore && isElementVisible(selector) == false) {
+                // Element is not visible, throw an error
+                throw new NoSuchElementException("Element with selector " + selector + " was not found");
             }
         }
     }
@@ -86,4 +92,49 @@ public class StepDefinitionBase extends WebElementBase {
         return element.findElement(selector).getText();
     }
 
+    public void swipeToIOS(By selector, String swipeDirection) {
+        // it should be swipable like not a cell maybe table for ex: By elementLocator = By.xpath("//XCUIElementTypeTable");
+        WebElement element = getElement(selector);
+        Map<String, Object> params = new HashMap<>();
+        params.put("direction", "up");
+        //       params.put("velocity", 2500);
+        params.put("element", ((RemoteWebElement) element).getId());
+        driver.executeScript("mobile: swipe", params);
+
+    }
+
+    public void scrollToIOS(By scrollSizeSelector, String direction, By selectorForScrollingElement) {
+        //scrollSizeSelector generally listView element in page
+        WebElement searchElement = null;
+        WebElement scrollingSize = getElement(scrollSizeSelector);
+
+        Map<String, Object> params = new HashMap<>();
+
+        params.put("element", ((RemoteWebElement) scrollingSize).getId());
+        params.put("toVisible", true);
+        params.put("direction", "down");
+
+        while (true) {
+            try {
+                searchElement = getElement(selectorForScrollingElement);
+                System.out.println("I cant see");
+                break;  // Exit the loop once the element is found and action is performed
+            } catch (Exception e) {
+                driver.executeScript("mobile: scroll", ImmutableMap.of(
+                        "direction", "down",
+                        "element", ((RemoteWebElement) scrollingSize).getId(),
+                        "toVisible", true
+                ));
+            }
+        /*Map<String, Object> params = new HashMap<>();
+        if ("accesbilty Id is set" != null) {
+            params.put("element", ((RemoteWebElement) element).getId());
+            params.put("toVisible", true);
+        }
+
+        driver.executeScript("mobile: scroll", params);*/
+        }
+
+
+    }
 }
